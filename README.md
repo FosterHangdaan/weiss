@@ -3,6 +3,8 @@ A user-friendly and simple to install WiFi security system. Monitor doors, windo
 
 The mobile app and server were developed using the Blynk IoT platform.
 
+A video demonstrating the various features of WEISS can be found [here](https://www.youtube.com/watch?v=tYI4jGl4yzQ).
+
 *This project was created during the Summer of 2020 semester for the TPJ-655 course at [Seneca College](https://www.senecacollege.ca).*
 
 ## Developers
