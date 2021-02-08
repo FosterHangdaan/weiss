@@ -1,0 +1,13 @@
+[Unit]
+Description=Blynk Local Server
+After=network-online.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+ExecStart=java -jar /opt/blynk/server-0.41.13-java8.jar \
+  -dataFolder /srv/blynk
+
+[Install]
+WantedBy=multi-user.target
