@@ -33,8 +33,12 @@ The users interact with WEISS using the Blynk mobile app and the fingerprint sca
 The sensor devices are composed of 3 basic parts: a 9V battery, a voltage regulator circuit and a NodeMCU ESP8266. WiFi connection was achieved through the ESP8266 module. The sensors and battery connected to the ESP8266 pins via the voltage regulator circuit. The cases were designed in SolidWorks and then 3D printed.
 
 ## Mobile App
-![](images/mobile-app-01.jpg)
-![](images/mobile-app-02.jpg)
+<table>
+  <tr>
+    <td><img src="images/mobile-app-01.jpg" width="300" /></td>
+    <td><img src="images/mobile-app-02.jpg" width="300" /></td>
+  </tr>
+</table>
 
 ## Resources
 - [NodeMCU ESP8266 Firmware](https://github.com/nodemcu/nodemcu-firmware)
