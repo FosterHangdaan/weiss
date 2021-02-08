@@ -1,7 +1,7 @@
 # Wireless Easy Install Security System (WEISS)
 A user-friendly and simple to install WiFi security system. Monitor doors, windows and hallways with wireless motion/magnetic sensors and surveillance cameras. The user arms the system using the WEISS mobile app. Users receive email and push notifications with a snapshot from the camera when any of the sensors are tripped.
 
-The mobile app and server are developed using the Blynk IoT platform.
+The mobile app and server were developed using the Blynk IoT platform.
 
 *This project was created during the Summer of 2020 semester for the TPJ-655 course at [Seneca College](https://www.senecacollege.ca).*
 
@@ -27,7 +27,7 @@ The users interact with WEISS using the Blynk mobile app and the fingerprint sca
 | Raspberry Pi 3 B+ | The brain of the system since it houses the Blynk Server. Data from the sensors and authentication from the fingerprint scanner is processed here. |
 | Fingerprint Scanner | Authenticates the user and is used to manually enable or disable the security system. |
 
-### Interal Circuitry of Sensors
+### Internal Circuitry of Sensors
 ![](images/internal-circuitry.png)
 
 The sensor devices are composed of 3 basic parts: a 9V battery, a voltage regulator circuit and a NodeMCU ESP8266. WiFi connection was achieved through the ESP8266 module. The sensors and battery connected to the ESP8266 pins via the voltage regulator circuit. The cases were designed in SolidWorks and then 3D printed.
